@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      /*Globals*/
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background: #a79b9b96;
+        text-align: center;
+        font-family: arial;
+      }
+
+      article {
+        width: 400px;
+        display: inline-block;
+        background: white;
+        margin-top: 120px;
+        text-align: left;
+        border-radius: 18px;
+      }
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        height: 401px;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .top {
+        position: relative;
+      }
+
+      .letters {
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+      }
+
+      .bottom {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 18px;
+        position: relative;
+      }
+
+      img {
+        display: block;
+      }
+
+      li {
+        text-align: center;
+      }
+
+      li a {
+        display: inline-block;
+        color: gray;
+        font-size: 11px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .button {
+        background-color: red;
+        top: -25px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        line-height: 50px;
+        color: white;
+        left: 050%;
+        margin-left: -25px;
+      }
+
+      .marco {
+        width: 800px;
+        margin: auto;
+        background: red;
+        padding-top: 100px;
+        padding-bottom: 74px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="marco">
+      <article>
+        <div class="top">
+          <figure>
+            <img src="./images/emma.png" alt="" />
+          </figure>
+          <div class="letters">
+            <h1>Emma Watson</h1>
+            <a href="">@EmWatson</a>
+          </div>
+        </div>
+        <div class="bottom">
+          <a class="button" href="">
+            <i class="fas fa-plus"></i>
+          </a>
+          <ul>
+            <li>
+              <a href="">Tweets</a>
+              <p>1,337</p>
+            </li>
+            <li>
+              <a href="">Following</a>
+              <p>561</p>
+            </li>
+            <li>
+              <a href="">Followers</a>
+              <p>718</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/43f3cc2ec8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
